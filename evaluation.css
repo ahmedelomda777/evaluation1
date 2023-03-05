@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upar-background img{
+       position: absolute;
+       z-index: 1;
+       height: 500px;
+       width: 100%;
+       
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+        z-index: 100;
+    width: 100hv;
+    height: 80px;
+     align-items : center;
+padding-top:20px ;
+}
+.left-nav{
+       display: flex;
+      align-items : center;
+      margin-left: 30px;
+      flex-wrap: wrap;
+
+}
+nav .links a{
+     margin-left:20px ;
+     text-decoration: none;
+     color: black;
+     text-transform: capitalize;
+     font-size: smaller;
+   
+    }
+nav .links .home {
+border-bottom: 2px solid #8e44ad;
+}    
+.right-nav img{
+    height: 20px;
+     width: 60px;
+position: absolute;
+z-index: 3;
+right: 50px;
+top: 40px;
+
+}
+.right-nav p{
+  font-size: 12px;
+position: absolute;
+z-index: 7;
+right: 66px;
+top: 43px;
+
+}
+.sec1{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+height: 400px;
+width: 100%;
+}
+.deliver {
+    width: 350px;
+    margin-left: 30px;
+}
+.deliver h1{
+    font-size: 32px;
+    color: rgb(61, 61, 61);
+}
+
+.deliver h1 span{
+    color: rgb(193, 20, 193);
+}
+.deliver p{
+        color: rgb(109, 100, 100);
+
+}
+
+
+.sec1 .img1{
+    width: 400px;
+    padding: 0px;
+    position: absolute;
+    
+    z-index: 2;
+}
+.sec1 .img2{
+    width: 200px;
+    height: 300px;
+    position: relative;
+   top:20px;
+   left:70px;
+
+    z-index: 3;
+        
+    }
+    .sec1 .img3{
+    width: 200px;
+    height: 100px;
+    position: relative;
+   top:50px;
+   left:-130px;
+    z-index: 4;
+    }
+   .sec1 .img4{
+    position: absolute;
+        z-index: 5;
+ top:430px;
+   left:-100px;
+        width: 80%;
+        height: 100px;
+    }
+  
+.div1{
+   
+    position: relative;
+    z-index: -3;
+ height: 700px;
+ border: #8d44ad00 2px solid;
+}
+
+.div1 .img1{
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 113px;
+    left: 310px;
+   }
+   .div1 .text{
+margin-top: 240px;  
+margin-left: 260px;  
+text-align: center;
+width: 260px;
+
+}
+.div1 .text .super{
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+
+}
+.div1 .text p{
+    width: 250px;
+    font-size: 15px;
+}
+
+.div1 .img2{
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    left: 610px;
+   }
+   .div1 .text2{
+margin-top: 30px;  
+margin-left: 510px;  
+text-align: center;
+width: 350px;
+
+
+}
+.div1 .text2 .real{
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+
+
+}
+.div1 .text2 p{
+    width: 290px;
+    font-size: 15px;
+    padding: auto;
+    margin: auto;
+}
+.div1 .img3{
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 870px;
+   }
+   .div1 .text3{
+margin-top: 110px;  
+margin-left: 800px;  
+text-align: center;
+width: 300px;
+}
+.div1 .text3 .discounts{
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    
+
+}
+.div1 .text3 p{
+    width: 290px;
+    font-size: 15px;
+    padding: auto;
+    margin: auto;
+}
+.div1 .img4{
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 70px;
+   }
+   .div1 .text4{
+    position: absolute;
+    z-index: 3;
+    top: 450px;
+    left: 100px;
+width: 200px;
+color: white;
+}
+.div1 .text4 .why{
+    padding-left:15px ;
+    font-size: 13px;
+}
+.div1 .text4 .kudzoka{
+    width: 150px;
+    font-size: 25px;
+    padding: auto;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3px;
+
+}
+.sec2 .img5{
+width: 50%;
+position:absolute ;
+z-index: -1;
+top: 60px;
+left: 380px;
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.div2 .img1,.div2 .img3{
+    width: 150px;
+    height: 150px;
+margin-top: 100px;
+}
+.div2 .img1{
+    margin-left: 100px;
+}
+.div2 .img3{
+    margin-right: 100px;
+
+}
+.div2 .img2{
+    width: 300px;
+}
+.div2 h4,.div2 p{
+    width: 190px;
+    text-align: center;
+    margin: auto;
+}
+.div2 h4{
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    width: 30px;
+}
+.flex .h1{
+    margin-left: 30px;
+    margin-top: 220px;
+}
+.flex .h2{
+    margin-right: 30px;
+    margin-top: 220px;
+}
+footer{
+    background-image: url(Group\ 1131.png) ;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 1540px 800px;
+    background-position: top;
+position: relative;
+
+
+}
+.end img{
+    width: 620px;
+    height: 373px;
+    position: absolute;
+    top: 153px;
+    left: 610px;
+
+}
+
+.btns input{
+padding: 10px 55px;
+margin-top: 400px;
+border: none;
+border-radius: 8px;
+position: absolute;
+z-index: 1;
+background-color: rgb(255, 255, 255);
+
+}
+
+.apple{
+margin-left: 100px;
+}
+.play{
+    margin-left: 230px;
+    }
+.btns p{
+    font-size: 10px;
+
+}
+.downapp{
+    left:100px ;
+    display: flex;
+    align-items: center;
+}
+.downapp img{
+    margin: 10px;
+    margin-top: 0px;
+
+}
+.downapp p{
+    margin-top: 0px;
+    margin-bottom:1px ;
+}
+.downapp h6{
+    margin-top: 0px;
+    margin-bottom:7px ;
+}
+.downplay{
+    left:230px ;
+    display: flex;
+    align-items: center;
+}
+.downplay img{
+    margin: 10px;
+    margin-top: 0px;
+
+}
+.downplay p{
+    margin-top: 0px;
+    margin-bottom:1px ;
+}
+.downplay h6{
+    margin-top: 0px;
+    margin-bottom:7px ;
+}
+.downapp,.downplay{
+    width: fit-content;
+    position: absolute;
+    z-index: 5;
+    top: 405px;
+    color: black;
+}
+.logos{
+    position: absolute;
+    z-index: 5;
+    top: 470px;
+}
+.insta{
+   margin-left: 100px;
+}
+.whats{
+    margin-left: 8px;
+}
+.face{
+    margin-left: 8px;
+}
+.links2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    z-index: 6;
+    top: 510px;
+    margin-left: 100px;
+    display: flex;
+   
+}
+.links2 .services{
+    margin-left: 180px;
+}
+.links2 .about-us{
+    margin-left: 260px;
+}
+.links2 .help-center{
+    margin-left: 340px;
+}
